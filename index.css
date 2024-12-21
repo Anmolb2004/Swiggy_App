@@ -28,17 +28,17 @@
 /* Header component ends */
 
 /* Restaurant card component starts */
-.body{
+/* .body{
     padding:5px;
     margin:5px;
     border:1px solid #000;
-}
+} */
 
-.res-search{
+/* .res-search{
     border:1px solid #000;
     padding:5px;
     margin:5px;
-}
+} */
 
 .res-container{
     display:flex;
@@ -62,3 +62,8 @@
     border:1px solid #000;
 }
 /* Restaurant card component ends */
+
+.filter-btn{
+    margin: 20px;
+    cursor: pointer;
+}

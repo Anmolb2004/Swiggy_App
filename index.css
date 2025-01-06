@@ -67,3 +67,17 @@
     margin: 20px;
     cursor: pointer;
 }
+
+.button2{
+    height:20px;
+    padding:30px;
+    margin:20px;
+}
+
+.search{
+    padding-top: 20px;
+}
+
+.filter{
+    display:flex;
+}

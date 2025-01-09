@@ -38,7 +38,7 @@ const RestaurantMenu = () => {
       <ul>
         {itemCards.map((item, index) => (
           <li key={index}>
-            {item.card.info.name} - {item.card.info.price}
+            {item.card.info.name} - ₹{item.card.info.price/100}
           </li>
         ))}
       </ul>

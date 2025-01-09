@@ -17,34 +17,34 @@ const Header=()=>{
     },[btn]);
 
     return(
-      <div className="header">
+      <div className="flex justify-between bg-pink-100 shadow-lg sm:bg-yellow-100 lg:bg-green-100">
         <div className="logo-container">
-          <img className="logo" 
+          <img className="w-40" 
           src={LOGO_URL}></img>
         </div>
-        <div className="nav-items">
-          <ul>
-            <li>Online Status: {onlineStatus === true ? "✅" : "❌"}
+        <div className="flex items-center">
+          <ul className="flex p-4 m-4">
+            <li className="px-4">Online Status: {onlineStatus === true ? "✅" : "❌"}
             </li>
-            <li>
+            <li className="px-4">
              <Link to="/">Home</Link> 
               </li>
-            <li>
+            <li className="px-4">
               <Link to="/about">About Us</Link>
               </li>
             
-            <li>
+            <li className="px-4">
               <Link to="/grocery">Grocery</Link>
               </li>
-            <li>
-
+            <li className="px-4">
               <Link to="/contact">Contact Us</Link>
               </li>
-            <li>Cart</li>
-            </ul>
+            <li className="px-4">Cart</li>
+         
             <button className="button2" onClick={()=>{
                 btn==="Login" ? setbtn("Logout") : setbtn("Login") 
             }}>{btn}</button>
+               </ul>
         </div>
       </div>
     )

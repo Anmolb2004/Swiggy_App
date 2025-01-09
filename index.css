@@ -1,5 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
 /* Header component starts */
-.header{
+/* .header{
     display:flex;
     justify-content: space-between;
     border: 1px solid #000;
@@ -24,7 +32,7 @@
 
 .nav-items > ul > li{
     padding:5px;
-}
+} */
 /* Header component ends */
 
 /* Restaurant card component starts */
@@ -40,7 +48,7 @@
     margin:5px;
 } */
 
-.res-container{
+/* .res-container{
     display:flex;
     flex-wrap: wrap;
 }
@@ -60,10 +68,10 @@
 .res-card:hover{
     cursor:pointer;
     border:1px solid #000;
-}
+} */
 /* Restaurant card component ends */
 
-.filter-btn{
+/* .filter-btn{
     margin: 20px;
     cursor: pointer;
 }
@@ -80,4 +88,4 @@
 
 .filter{
     display:flex;
-}
+} */
